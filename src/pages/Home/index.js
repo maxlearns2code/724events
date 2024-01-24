@@ -65,7 +65,7 @@ const Page = () => {
             Notre équipe
           </h2>
           <p>Une équipe d’experts dédiés à l’ogranisation de vos événements</p>
-          <div className="ListContainer">
+          <div className="ListContainer" data-testid="listOfPeople">
             <PeopleCard
               imageSrc="/images/stephanie-liverani-Zz5LQe-VSMY-unsplash.png"
               name="Samira"
